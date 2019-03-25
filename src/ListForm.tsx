@@ -11,11 +11,11 @@ import { FormFieldsStore } from './store';
 import { FormFieldLabel } from './fields/FormFieldLabel';
 //testing by raja-repo
 export class ListForm extends React.Component<IListFormProps, IListFormProps> {
-  private localContext: SP.ClientContext;
+  //private localContext: SP.ClientContext;
 
   public constructor(props) {
     super(props);
-    this.localContext = SP.ClientContext.get_current();
+    //this.localContext = SP.ClientContext.get_current();
     initializeIcons();
 
     this.state = {
