@@ -1,72 +1,72 @@
 {
-  "name": "sp-react-formfields",
-  "version": "1.0.0",
-  "description": "Collection of React controls used for rendering SharePoint fields in custom forms. Support new/edit/display rendering modes.",
-  "scripts": {
-    "build": "tsc && gulp copyassets"
-  },
-  "keywords": [
-    "SharePoint",
-    "React",
-    "PnP",
-    "Form",
-    "Controls",
-    "Office UI",
-    "Fabric"
-  ],
-  "author": "Oleg Rumiancev",
-  "license": "MIT",
-  "peerDependencies": {
-    "@pnp/common": "^1.1.2",
-    "@pnp/logging": "^1.1.2",
-    "@pnp/odata": "^1.1.2",
-    "@pnp/sp": "^1.1.2",
-    "@pnp/sp-clientsvc": "^1.1.2",
-    "@pnp/sp-taxonomy": "^1.1.2",
-    "office-ui-fabric-react": "^5.95.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "core-js": "^2.5.7"
-  },
-  "devDependencies": {
-    "@pnp/common": "^1.1.2",
-    "@pnp/logging": "^1.1.2",
-    "@pnp/odata": "^1.1.2",
-    "@pnp/sp": "^1.1.2",
-    "@pnp/sp-clientsvc": "^1.1.2",
-    "@pnp/sp-taxonomy": "^1.1.2",
-    "@types/node": "^10.5.2",
-    "@types/react": "^16.4.6",
-    "@types/sharepoint": "^2016.1.1",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.4",
-    "office-ui-fabric-react": "^5.112.0",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "tslint": "^5.10.0",
-    "tslint-config-standard": "^7.0.0",
-    "tslint-react": "^3.6.0",
-    "typescript": "^2.8.3"
-  },
-  "dependencies": {
-    "react-draft-wysiwyg": "^1.12.13",
-    "react-dropzone": "^4.2.11",
-    "react-dropzone-component": "^3.2.0",
-    "core-js": "^2.5.7",
-    "draft-js": "^0.10.5",
-    "draftjs-to-html": "^0.8.4",
-    "html-to-draftjs": "^1.4.0",
-    "immutable": "^3.8.2",
-    "moment": "^2.22.2",
-    "rc-time-picker": "^3.3.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/olegrumiancev/sp-react-formfields"
-  },
-  "bugs": {
-    "url": "https://github.com/olegrumiancev/sp-react-formfields/issues"
-  },
-  "homepage": "https://github.com/olegrumiancev/sp-react-formfields",
-  "main": "lib/index.js"
+    "name": "OC-sp-react-formfields",
+    "version": "1.0.0",
+    "description": "Collection of React controls used for rendering SharePoint fields in custom forms. Support new/edit/display rendering modes.",
+    "scripts": {
+        "build": "tsc && gulp copyassets"
+    },
+    "keywords": [
+        "SharePoint",
+        "React",
+        "PnP",
+        "Form",
+        "Controls",
+        "Office UI",
+        "Fabric"
+    ],
+    "author": "Oleg Rumiancev",
+    "license": "MIT",
+    "peerDependencies": {
+        "@pnp/common": "^1.3.1",
+        "@pnp/logging": "^1.3.1",
+        "@pnp/odata": "^1.3.1",
+        "@pnp/sp": "^1.3.1",
+        "@pnp/sp-clientsvc": "^1.3.1",
+        "@pnp/sp-taxonomy": "^1.3.1",
+        "office-ui-fabric-react": "^5.95.0",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "core-js": "^2.5.7"
+    },
+    "devDependencies": {
+        "@pnp/common": "^1.3.1",
+        "@pnp/logging": "^1.3.1",
+        "@pnp/odata": "^1.3.1",
+        "@pnp/sp": "^1.3.1",
+        "@pnp/sp-clientsvc": "^1.3.1",
+        "@pnp/sp-taxonomy": "^1.3.1",
+        "@types/node": "^10.5.2",
+        "@types/react": "^16.4.6",
+        "@types/sharepoint": "^2016.1.1",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^3.9.4",
+        "office-ui-fabric-react": "^5.112.0",
+        "react": "^16.4.0",
+        "react-dom": "^16.4.0",
+        "tslint": "^5.10.0",
+        "tslint-config-standard": "^7.0.0",
+        "tslint-react": "^3.6.0",
+        "typescript": "^2.8.3"
+    },
+    "dependencies": {
+        "react-draft-wysiwyg": "^1.12.13",
+        "react-dropzone": "^4.2.11",
+        "react-dropzone-component": "^3.2.0",
+        "core-js": "^2.5.7",
+        "draft-js": "^0.10.5",
+        "draftjs-to-html": "^0.8.4",
+        "html-to-draftjs": "^1.4.0",
+        "immutable": "^3.8.2",
+        "moment": "^2.22.2",
+        "rc-time-picker": "^3.3.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/olegrumiancev/sp-react-formfields"
+    },
+    "bugs": {
+        "url": "https://github.com/olegrumiancev/sp-react-formfields/issues"
+    },
+    "homepage": "https://github.com/olegrumiancev/sp-react-formfields",
+    "main": "lib/index.js"
 }
